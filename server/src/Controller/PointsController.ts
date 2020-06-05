@@ -18,6 +18,7 @@ class PointsController{
             .distinct()
             .select('points.*');
             console.log(points)
+            
         return response.json(points);
     }
 
